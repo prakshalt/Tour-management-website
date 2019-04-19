@@ -1,0 +1,36 @@
+<div class="modal fade" id="registrationModal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+    
+      <!-- Modal content-->
+      <div class="modal-content  bg-dark">
+        <div class="modal-header" style="padding:35px 50px;background-color: #FFCC00;">
+        	 <h3 style="background-color: #FFCC00;color: black;"> Registration form</h4>
+          <button type="button" class="close" id='closeregmodal' data-dismiss="modal">&times;</button>
+         
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form" method="POST">
+            <div class="form-group">
+              <label for="usrname" style="color: white;"><span class="fa fa-user" style="color: red;"></span> Username</label>
+              <input type="email" class="form-control" id="username" name="username" placeholder="Enter email" autofocus>
+            </div>
+            <div class="form-group">
+              <label for="psw" style="color: white;"><span class="fa fa-eye" style="color: red;"></span> Password</label>
+              <input type="password" class="form-control" id="password" name="password" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+              <label for="psw" style="color: white;"><span class="fa fa-eye" style="color: red;"></span> Password</label>
+              <input type="password" class="form-control" id="cpsw"  placeholder="Confirm password">
+            </div>
+          </form>
+           <button class="btn btn-block" id="registerbtn" onclick="myFunction()" style="background-color: #FFCC00;"><span class="fa fa-sign-in"></span> Register</button>
+        </div>
+        <div class="modal-footer">
+          
+          <button class="btn btn-block btn-danger" id="closeregmodal2" data-dismiss="modal"><span class="fa fa-remove"></span> Cancel</button>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>

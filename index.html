@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
+  <script>
+$(document).ready(function(){
+  $("#logininnav").click(function(){
+    $("#loginModal").modal();
+  });
+   $("#registerinnav").click(function(){
+    $("#registrationModal").modal();
+  });
+   $("#signupinlogin").click(function(){
+   	$("#dismissloginmodal").trigger("click");
+    $("#registrationModal").modal();
+  });
+});
+</script>
+  <style>
+  /*.modal-header, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }*/
+  </style>
+<style type="text/css">
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+	.navbar-dark .navbar-nav .nav-link {
+    color: white;
+	}
+	.navbar-dark .navbar-nav .nav-item.active .nav-link {
+		color: #FFCC00;
+	}
+	.btn .btn-danger .btn-default{
+		padding-right: 100px;
+	}
+h1{
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+	/*li.active{
+    background-color: #FFCC00;
+	}*/
+</style>
+
+	<title>Tours</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark	 bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="Brand.svg" width="60" height="30" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Flights</a>
+          <a class="dropdown-item" href="#">Hotels</a>
+          <a class="dropdown-item" href="#">Buses</a>
+      		<div class="dropdown-divider"></div>
+           <h4 class="dropdown-header">Packages</h4>
+           <a class="dropdown-item" href="#">International Packages</a>
+           <a class="dropdown-item" href="#">India Packages</a>
+        </div>
+      </li>
+      <!--
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu">
+  <form class="px-4 py-3">
+    <div class="form-group">
+      <label for="exampleDropdownFormEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleDropdownFormPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+      <label class="form-check-label" for="dropdownCheck">
+        Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </form>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">New around here? Sign up</a>
+  <a class="dropdown-item" href="#">Forgot password?</a>
+</div>-->
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="#" id='registerinnav'>Register <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id='logininnav'>Login <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" >Contact us <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!---------------------------------End of navbar,start of carousel--------------------------------->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false">
+	 <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/dubai1.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+    <h1>Experience the best trip ever</h1>
+    <h2>7 days Dubai tour</h2>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/kashmir2.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+    <h1 >Experience the heights</h1>
+    <h2 >11 days Kashmir tour</h2>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/maldives1.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+    <h1>Experience the beach</h1>
+    <h2>10 days Maldives tour</h2>
+  </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------End of carousel---------------------------------->
+<!-------------------------------------------------Start of login modal---------------------------------->
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content  bg-dark">
+        <div class="modal-header" style="padding:35px 50px;background-color: #FFCC00;">
+        	 <h3 style="background-color: #FFCC00;color: black;"> Login form</h4>
+          <button type="button" class="close" data-dismiss="modal" id='dismissloginmodal'>&times;</button>
+         
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname" style="color: white;"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw" style="color: white;"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label style="color: white;"><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-block" style="background-color: #FFCC00;"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-block" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          
+        </div>
+        <p style="color: white;">Not a member? <a href="#" id='signupinlogin'>Sign Up</a></p>
+          <p style="color: white;">Forgot <a href="#">Password?</a></p>
+      </div>
+      
+    </div>
+  </div> 
+<!-------------------------------------------------End of login modal---------------------------------->
+<!-------------------------------------------------Start of Register modal---------------------------------->
+<!-- Modal -->
+  <div class="modal fade" id="registrationModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content  bg-dark">
+        <div class="modal-header" style="padding:35px 50px;background-color: #FFCC00;">
+        	 <h3 style="background-color: #FFCC00;color: black;"> Registration form</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form" method="POST" action="register.php">
+            <div class="form-group">
+              <label for="usrname" style="color: white;"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email" pattern="">
+            </div>
+            <div class="form-group">
+              <label for="psw" style="color: white;"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+              <label for="psw" style="color: white;"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Confirm password">
+            </div>
+              <button type="submit" class="btn btn-block" style="background-color: #FFCC00;"><span class="glyphicon glyphicon-off"></span> Register</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-block" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!-------------------------------------------------End of Register modal---------------------------------->
+<!---------------------------------------------Start of international packages--------------------------------->
+<div>
+<h1>International Tour Packages</h1>
+<!------------------------------------------------Start of card group------------------------------>
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="images/dubai1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">7 days Dubai Tour</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Starting with ₹70,000</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/europe1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">14 days Europe Tour</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Starting with ₹20,000</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/maldives1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">10 days Maldives Tour</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Starting with ₹100,000</small></p>
+    </div>
+  </div>
+</div>
+<!---------------------------End of card group------------------------>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+     <button type="button" class="btn btn-outline-warning mt-4 mb-4">See more</button>
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+<!-----------------------End of international packages------------------------------------>
+<!---------------------------------------------Start of India packages--------------------------------->
+<div>
+<h1>India Tour Packages</h1>
+<!------------------------------------------------Start of card group------------------------------>
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="images/kashmir2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">11 days Kashmir Tour</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Starting with ₹80,000</small></p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <img class="card-img-top" src="images/goa1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">4 days Goa Tour</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Starting with ₹20,000</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/kerala1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">8 days Kerala Tour</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Starting with ₹60,000</small></p>
+    </div>
+  </div>
+</div>
+<!---------------------------End of card group------------------------>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+     <button type="button" class="btn btn-outline-warning mt-4 mb-4">See more</button>
+    </div>
+  </div>
+</div>
+</div>
+<!-----------------------End of India packages------------------------------------>
+<!-----------------------Start of footer---------------------------->
+<div class="container-fluid bg-dark">
+	<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook" style="color: #FFCC00;font-size: 40px;margin-right: 20px;"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter" style="color: #FFCC00;font-size: 40px;margin-right: 20px;"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram" style="color: #FFCC00;font-size: 40px;margin-right: 20px;"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus" style="color: #FFCC00;font-size: 40px;margin-right: 20px;"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope" style="color: #FFCC00;font-size: 40px;margin-right: 20px;"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+	</div>	
+	<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p style=""><u><a href="https://www.nationaltransaction.com/">Tours Corporation</a></u> is a company owned by Prakshal</p>
+					<p class="h6">&copy All right Reversed.</a></p>
+				</div>
+				</hr>
+	</div>	
+</div>
+<!---------------------------------End of footer-------------------------------->	
+</body>
+</html>

@@ -1,0 +1,21 @@
+type:int
+title:5 Days Maldives Tour
+image:images/maldives1.jpg
+price:Rs.55,000
+inclusions:flights,hotels,taxi,visa,food
+overview:The Maldives is majestically embedded in the Indian Ocean with its 1195 islands spread out like a garland, earning itself the name "mala dhveepas", finely tuned to be the Maldives. Occupying just about 1% as land, the Maldives is the land of pristine beaches and gleaming culture. This place is sure to beckon sun-kissed times, and the mesmeric memories of this island shall get etched to your heart. Celebrate this beautiful time that is sure to ignite embers with your loved one with a week-long getaway lets you escape the rigmarole of daily life and take that much-needed break. Visit many attractions, soak in the sun and just have a gala time!
+itinerary:
+Day 1 - Arrive at paradise
+After your arrival at the airport, head towards the resort by a speed boat. Enjoy the warm welcome which includes a welcome drink and cold face towel. Proceed to your room and then explore the amenities offered by the resort.
+
+Day 2 - Island Familiarisation
+Relish a healthy breakfast and discover the beautiful island. You can learn about the various diving and snorkelling packages offered here. You can also explore the range of spa, games and sports, and entertainment programmes. Indulge in activities like swimming, snorkelling and spend fun-filled time playing some games on the beach.
+
+Day 3 - Island Hopping
+Take island hopping excursions and head to local islands to learn about their habitation, culture, and heritage. Here, you can also shop for mementos for family and friends.
+
+Day 4 - Fishing Adventure
+Today, plan your day involving trips of various duration and fishing activities. Indulge in game fishing (expected to be released back into the water) or bring them back on the island. You can ask the resort chef to cook the fishes who will be more than happy to serve you delectable dishes.
+
+Day 5 - Departure
+It is time to bid farewell to this scenic island and return home with fond memories of this delightful holiday in Maldives.

@@ -1,0 +1,21 @@
+type:int
+title:5 Days Dubai Tour
+image:images/dubai1.jpg
+price:Rs.45,990
+inclusions:flights,hotels,taxi,visa,food
+overview:Dubai is a dazzling city that wears a niche character and glitters like a socialite! From cutting-edge architecture to cobbled streets makeup parts of the traditional quarters, Dubai represents an elegant melange of the old and the new. On this five day tour, soak in the beauty of this sleek town while you check out its myriad attractions. Glide over the waters and revel in a beautiful ambience during the Dhow Cruise or admire the scintillating skyline of the city from the world's tallest building - The Burj Khalifa. Break the monotony of daily life and take this trip and visit the star-studded Dubai.
+itinerary:
+Day 1 - Arrival, Airport Pickup & Dhow Cruise
+Arrive at Dubai airport, and then get transferred to the hotel and then check-in. Get ready for a Dhow cruise experience in the evening with welcome drinks, coffee, tea and water. Also, savour an array of cuisines from an international barbecue buffet dinner menu and enjoy the Tanoura dance and other entertainment activities on board. Overnight in the hotel.
+
+Day 2 - Half day City Tour with Burj Khalifa
+After a delicious breakfast, get set for a half day city tour to cover the most prominent places in Dubai, where you get to see both sides of Dubai, the historical and the modern one. Beginning with the Dubai Museum,located in the Al Fahidi Fort (built in the 18th century). Followed by a drive along the Dubai Creek. The tour would be incomplete if you do not see its modern side where you see some of the emirate's futuristic skyscrapers and awe inspiring architectures. While driving you past Sheik Zayed Road, allowing you to catch a glimpse of Dubai's modern icons like Mall of the Emirates, Burj Khalifa, Dubai Mall and Burj Al Arab along the way. You will also pass through the one of its kind Palm Islands, Jumeirah Beach, and enjoy photo stops at Atlantis Palm Hotel. Later, during the Burj Khalifa tour, enjoy a multimedia presentation about the history of Dubai as well as Burj Khalifa. You will then proceed to the 124th observatory deck of Burj Khalifa via super fast elevators. You will get panoramic views of the city from up here. Return to hotel for overnight stay.
+
+Day 3 - Desert Safari with BBQ Dinner
+Savour a tasty breakfast and get set for the adventurous dessert safari tour in the afternoon. The 6-hour Desert Safari includes driving into dunes in an AC 4x4 vehicle with a trained driver, photo stops for the sunset, unlimited refreshments at the camp, Henna designing, hookah smoking facility, the Tanoura Show, Fire Show, belly dancing, dressing up in traditional Arabic attire for photos, and eat a delicious barbecue dinner with an array of vegetarian and non-vegetarian dishes. Return to the hotel for overnight stay.
+
+Day 4 - Day to yourself. Recommended for shopping and hopping
+Get done with your breakfast and choose how you want to spend this day. It could be a wonderful relaxing day in your hotel room or by the beach, or could be used best to discover Dubai's best shopping malls including The Dubai Mall, Mall of the Emirates and City Walk to traditional souks such as the Gold Souk and Perfume Souk, you are most likely to add a souvenir to your Dubai holiday treasure. All the fantastic luxury fashion available in malls and shopping districts where you may spot delightful discounts.Don't miss out on great bargains.
+
+Day 5 - Airport Drop Off & Departure
+Have an appetising breakfast and then take transfers to the airport for your onward journey back home.

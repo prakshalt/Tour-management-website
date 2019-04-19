@@ -1,0 +1,17 @@
+
+h1{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item.active {
+    background-color: #FFCC00;
+    color: black;					
+  } 
+.navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:focus, 
+.navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: red;
+}
+ .navbar-dark .navbar-nav .nav-item.active .nav-link {
+    color: #FFCC00;
+  }

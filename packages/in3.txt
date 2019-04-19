@@ -1,0 +1,28 @@
+type:in
+title:7 Days Kerala Tour
+image:images/kerala1.jpg
+price:Rs.18,000
+inclusions:hotels,taxi,food
+overview:Kerala is known for its picturesque environs and much more. Drive through Munnar's misty tea gardens, have adventure in the forests around Periyar National Park or explore Cochin’s diverse history and culture. Backwaters in Kumarakom and dark woods of Thekkady will lure you into spending some more time here. Experience a bit of everything that makes Kerala an incredible holiday destination and a perfect getaway from city life. Don't miss the visual extravaganza of the Neelakurinji flowers that bloom only once in twelve years. The hillsides of Munnar are bathed in a misty blue with the blossoming of these flowers and people flock from far and near to see this rare and beautiful phenomenon of nature.  This stunning spectacle can only be seen between July 2018 to October 2018, so make sure you don't miss this visual treat of nature!
+itinerary:
+Day 1 - Arrival in Cochin | Drive from Cochin to Munnar (135 km/approx. 4 hours)
+Soon after reaching Cochin, board the vehicle and start your journey towards Munnar.Situated at an elevation of 1600 metres above sea level, Munnar is a beautiful hill station in Kerala. Located at the confluence of three swirling rivers and set amid green mist covered mountains it is a lovely destination. Expansive tea plantations, winding lanes and shimmering lakes add to the beauty of this place.On arrival at Munnar, check-in at the hotel. You have the rest of the day at leisure. Stay overnight at the hotel.
+
+Day 2 - Sightseeing in Munnar
+Today, you head out to explore the scenic places of Munnar. Start your tour with a visit to Eravikulam National Park, which is one of the most prominent attractions of this region. Sprawled over an area of approximately 97 square kilometres, the Park is home to numerous animals including some endangered species. You can also go trekking at the Park, which offers breathtaking views of the lush tea plantations.After enjoying the sights of the park, head to the Tea Museum (this is closed on Mondays). Here you learn about the history of tea plantations of this region. Afterwards visit the lovely Mattupetty Dam, enjoy the views from Eco Point and admire the Flower Garden.Return to the hotel in the evening for your overnight stay at the hotel.
+
+Day 3 - Drive from Munnar to Thekkady (110 km/approx. 4 hours)
+Check out from your hotel and drive to Thekkady (Periyar). On arrival, check-in at the hotel.Thekkady is well-known for its undulating hills, rich biodiversity and spice plantations. Its most famous place is the Periyar National Park. In the afternoon, you would go for a boat cruise (which would be on direct payment basis) at Periyar Lake in Thekkady.Return to the hotel in the evening and stay overnight at the hotel.
+
+Day 4 - Drive from Thekkady to Alleppey (180 km/approx. 4 hours)
+Today check out of your hotel and drive to Alleppey.On arrival, check-in to your hotel and you have the rest of the day at leisure. You can choose to go for a backwater sunset cruise (at your own expense) or visit the expansive Alleppey beach.Return to your hotel for the overnight stay
+
+Day 5 - Drive from Alleppey to Kovalam (190 km/approx. 5 hours)
+Today you proceed to Kovalam by road.On arrival in Kovalam, check-in to your hotel. Spend the rest of the day at the beautiful beach of Kovalam. Stay overnight at the hotel.
+
+Day 6 - Trip to Kanyakumari (100 km / approx 02 hours)
+Today you would go on an excursion to Kanyakumari. You will be taken for sightseeing of all the famous monuments of the city as the Vivekananda Rock Memorial, Thiruvalluvar Statue and Gandhi Memorial.
+You return to Kovalam by evening and stay overnight at the hotel
+
+Day 7 - Depart from Kovalam Trivandrum airport (20 Km / approx 45 min)
+Check out of the hotel and drive to Trivandrum airport to board your return flight, taking back beautiful memories of your Kerala sojourn.Tour Ends.

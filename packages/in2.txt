@@ -1,0 +1,24 @@
+type:in
+title:6 Days Goa Tour
+image:images/goa1.jpg
+price:Rs.15,999
+inclusions:hotels,taxi,food
+overview:The beauty of the land of beautiful beaches, Goa is that you don’t have a burn a hole in your pocket to enjoy it in its myriad facets. Goa can easily be traveled on a shoestring budget and still be enjoyed to the hilt. After landing in Goa, explore some of the nearby attractions on your own. In the evening, you could head for a fulfilling meal to one of many popular eateries. The next day, gear up for a packed day as we take you around to some of the well-known attractions. Visit Aguada Fort, well-preserved seventeenth-century Portuguese fort. Next, we visit the clean and beautiful Candolim Beach. Feel the waves brush against your feet on this beach. Get your adrenaline rushing by participating in some of the water sports on Baga Beach. Fill up your shopping bags at the Anjuna Flea market. Your last stop is the Vagator beach; that had red cliffs looking down on the shore and freshwater springs within a stone's throw from the sea.
+itinerary:
+Day 1 - Arrival in Goa
+Arrival at the aiport and transfer from airport to the Hotel.
+
+Day 2 - Half Day Sightseeing of North Goa
+Half day sightseeing covering - Fort Aguada, Candolim Beach, Calangute Beach, Baga Beach.
+
+Day 3 - Day at Leisure
+Day at Leisure.
+
+Day 4 - Day at Leisure
+Day at Leisure.
+
+Day 5 - Day at Leisure
+Day at Leisure.
+
+Day 6 - Departure from Goa
+Transfers from Hotel to Airport.

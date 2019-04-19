@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<style type="text/css">
+  label{
+    color:white;
+  }
+  h5{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+#md{
+    overflow-y: initial
+}
+#mb{
+  height: 500px;
+    overflow-y: auto;
+}
+</style>
+<script type="text/javascript">
+ $(document).ready(function(){
+   disp_form();
+  });
+
+</script>
+</head>
+<div class="modal fade" id="bookModal" role="dialog" style="overflow-y: scroll;">
+    <div class="modal-dialog modal-dialog-centered" id='md'>
+    
+      <!-- Modal content-->
+      <div class="modal-content  bg-dark">
+        <div class="modal-header" style="padding:35px 50px;background-color: #FFCC00;">
+        	 <h5 style="background-color: #FFCC00;color: black;"> Booking form</h5>
+          <button type="button" class="close" id='closeregmodal' data-dismiss="modal">&times;</button>
+         
+        </div>
+        <div class="modal-body" id='mb' style="padding:40px 50px;">
+          <form role="form" method="POST" id='bookform' action="booksuccess.php">
+             <div class="form-group">
+              <label for="usrname" style="color: white;"> Number of passengers</label>
+                <select class="form-control" id="pass_count" name="pass_count" onchange="disp_form()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <div id="container"></div>
+          </form>
+           <button class="btn btn-block" id="bookbtn" style="background-color: #FFCC00;"><span class="fa fa-check-circle"></span> Confirm</button>
+        </div>
+        <div class="modal-footer">
+          
+          <button class="btn btn-block btn-danger" id="closeregmodal2" data-dismiss="modal"><span class="fa fa-remove"></span> Cancel</button>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!---------->
+<div class="modal fade" id="bookvalidation" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+    
+      <!-- Modal content-->
+      <div class="modal-content  bg-dark">
+        <div class="modal-body" style="padding:40px 50px;">
+             <p style="color: white;text-align: center;font-size: 30px;" id="successb"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" id="successok" class="btn btn-block" data-dismiss="modal" style="background-color: #FFCC00;">Okay</button>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+<!----------------->
+
+
+<!--Book login modal---------------->
+<div class="modal fade" id="bookloginModal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+    
+      <!-- Modal content-->
+      <div class="modal-content  bg-dark">
+        <div class="modal-body" style="padding:40px 50px;">
+             <p style="color: white;text-align: center;font-size: 30px;" id="successp">Please login first</p>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" id="bookloginmodalyes" class="btn btn-block" data-dismiss="modal" style="background-color: #FFCC00;">Yes</button><br>
+            <button type="submit" id="bookloginmodalno" class="btn btn-block" data-dismiss="modal" style="background-color: #FFCC00;">No</button>
+          
+        </div>
+      </div>
+    
+    </div>
+  </div>
+
+
+
+  <!----------------->
+  <script type="text/javascript">
+    function disp_form()
+  {
+    var count=document.getElementById('pass_count').value;
+    var container = document.getElementById("container");
+    container.innerHTML="";
+            /*  var number=container.getElementsByTagName('input').length;
+              document.getElementById("table_cols").value=number+1;
+              var i=number;
+              console.log(i);
+                container.appendChild(document.createTextNode("Column " + (i+1)));*/
+                // Create an <input> element, set its type and name attributes
+                for(i=0;i<count;i++)
+                {
+                  var div1 = document.createElement("div");
+                  div1.className="form-group";
+                   container.appendChild(div1); 
+                   var heading=document.createElement("h5");
+                   heading.innerHTML="<span class='fa fa-user' style='color: red; font-size:25px;'></span>  Passenger "+(i+1);
+                   div1.appendChild(heading);
+
+                  var label = document.createElement("label");
+                   label.innerHTML="Name of Passenger "+(i+1);
+                    div1.appendChild(label);  
+                    var input = document.createElement("input");
+                    input.type = "text";
+                    input.name = "name" + i;
+                    input.className="form-control";
+                    div1.appendChild(input);
+
+
+                    var label1 = document.createElement("label");
+                   label1.innerHTML="Gender of Passenger "+(i+1);
+                    div1.appendChild(label1);  
+                    var input1 = document.createElement("select");
+                    input1.name = "gender" + i;
+                    input1.className="form-control";
+                    input1.innerHTML="<option value='male'>Male</option><option value='female'>Female</option><option value='other'>Other</option>"
+                    div1.appendChild(input1);  
+
+                     var label2 = document.createElement("label");
+                   label2.innerHTML="Birthdate of Passenger "+(i+1);
+                    div1.appendChild(label2);  
+                    var input2 = document.createElement("input");
+                    input2.type = "date";
+                    input2.name = "bdate" + i;
+                    input2.className="form-control";
+                    div1.appendChild(input2); 
+                }
+                  var div1 = document.createElement("div");
+                  div1.className="form-group";
+                   container.appendChild(div1);
+                   var heading=document.createElement("h5");
+                   heading.innerHTML="<span class='fa fa-address-book' style='color:red;font-size:25px;'></span>  Contact details";
+                   div1.appendChild(heading);
+                    var label = document.createElement("label");
+                   label.innerHTML="Mobile number";
+                    div1.appendChild(label);  
+                    var input = document.createElement("input");
+                    input.type = "number";
+                    input.name = "mnumber";
+                    input.className="form-control";
+                    div1.appendChild(input);
+                     var label1 = document.createElement("label");
+                   label1.innerHTML="Address";
+                    div1.appendChild(label1);  
+                    var input = document.createElement("textarea");
+                    input.rows="4";
+                    input.name = "address";
+                    input.className="form-control";
+                    div1.appendChild(input);
+                
+  }
+
+  document.getElementById("bookbtn").addEventListener("click", function () {
+    var count=document.getElementById('pass_count').value;
+    var str="";
+    var pa=document.getElementById("successb");
+    var flag=1;
+   // alert("in for");
+    for(i=0;i<count;i++)
+    {
+        var name=document.getElementsByName("name"+i)[0].value;
+        var gender=document.getElementsByName("gender"+i)[0].value;
+        var bdate=document.getElementsByName("bdate"+i)[0].value;
+      if(name==""||gender==""||bdate=="")
+        {
+          //alert("in if");
+            pa.innerHTML="<span class='fa fa-exclamation-circle' style='font-size:30px;color:red'></span>Please fill out all fields";
+          $("#bookvalidation").modal();
+          flag=0;
+        }
+    }
+    var mnumber=document.getElementsByName("mnumber")[0].value;
+    var address=document.getElementsByName("address")[0].value;
+    if(mnumber==""||address=="")
+        {
+          //alert("in if");
+            pa.innerHTML="<span class='fa fa-exclamation-circle' style='font-size:30px;color:red'></span>Please fill out all fields";
+          $("#bookvalidation").modal();
+          flag=0;
+        }
+    //alert(str);
+    if(flag==1)
+    {
+         var form=document.getElementById('bookform');
+        form.submit();
+    }
+   
+});
+  </script>
+  

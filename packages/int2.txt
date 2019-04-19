@@ -1,0 +1,30 @@
+type:int
+title:8 Days Europe Tour
+image:images/europe1.jpg
+price:Rs.1,25,000
+inclusions:flights,hotels,taxi,visa,food
+overview:A beautiful blend of culture, history, architecture and scenic landscapes, Eastern Europe, makes an excellent holiday destination for travel enthusiasts. Blessed with breath-taking beauty, the cities of Eastern Europe boast of medieval monasteries, ancient towns and warm hospitality. Enjoy everything, from golden spires to imperial history, beautiful monuments, grand architectural landmarks and old churches. On this tour, you will get to tour three beautiful countries of Eastern Europe - Hungary, Austria and the Czech Republic and explore their major attractions. Book this fantastic tour for a memorable vacation.
+itinerary:
+Day 1 - Welcome to Prague
+Arrive in Prague, Czech Republic, proceed to the hotel and spend the rest of the day at leisure. Standard check-in will be at 14:00 hrs. Collect a city map and hotel visiting card, a local SIM if required (at your own expense) and get to the nearest place exchange counter. You can explore the city on your own and enjoy a relaxed evening along the banks of the river, in one of the many popular cafes. Stay overnight at the hotel.
+
+Day 2 - Prague Sightseeing Tour with Charles Bridge Ticket
+Go for a panoramic bus tour and explore Prague. The tour will start and end in the city centre at the Old Town Square. Listen to the information about the locations through headphones, and choose one from 26 languages. The 1-hour along ride covers all the ancient parts of Prague, with an exception to Prague Castle. The trip takes you through the Old Town, the New Town and the Lesser Town. You will see all of Prague's most famous locations such as the Old Town Square, Spanish Synagogue, St. Agnes Monastery, Republic Square, Municipal House, Powder Tower, Masaryk Railway Station, State Opera House, National Museum, Wenceslas Square, New Town Hall, Charles Square, Dancing House, Vltava Bridges, National Theatre, Charles Bridge, Rudolfinum Music Hall, Petrin Hill and look-out tower, Manes Bridge, Lesser Town, The Straka Academy Government of the Czech Republic, Jewish Quarter and The Old New Synagogue. You can go for a walk on the Charles bridge. Make your visit hasslefree by buying your ticket online.
+
+Day 3 - Vltava River Sightseeing Cruise in Prague
+Cruise along the Vltava River through Prague's picturesque sights. You will admire the grand complex of the Prague Castle, sail under the world famous Charles Bridge and enjoy dozens other surprising views. The bar aboard is well equipped with drinks and refreshments for your enjoyment at your own expense. Your trip will end at your starting point, which is right after the Cechuv Bridge under the premises of Na Frantisku Hospital, which is an easy and short walk from Paris street, a street that's full of luxury shops, and the Intercontinental Hotel.
+
+Day 4 - Vienna Panaromic Sightseeing Evening Tour
+Soak up 360-degree views of Vienna's top attractions with an evening tour on a double-decker Big Bus. Pass Schonbrunn Palace, St Stephen's Cathedral, the Belvedere, and more. The Tour lasts around 1 hour, and within this tour, you will explore Vienna when dusk falls, with a guide.
+
+Day 5 - Schonbrunner Gardens Mini-Train Tour
+Explore Vienna's breathtaking Schonbrunner Gardens by mini-train on this hop-on-hop-off tour. With your full-day ticket, set your own tour pace and route, disembarking at any of the nine stops along the 50-minute loop. Discover the lawns and gardens on foot, visiting Schonbrunn Palace, the Gloriette and the Schonbrunn Zoo (entrance fees not included), or just sit back and soak up the breathtaking natural views.
+
+Day 6 - Budapest (Hungary) to Vienna (Austria)
+Have a delicious buffet breakfast, check-out from the hotel and travel to the Hungarian capital, Budapest (which is often called the Pearl of the Danube or the Paris of East).
+
+Day 7 - Explore Budapest - full day Tour Pass
+Experience Budapest at your own speed on a hop-on hop-off bus tour route. This ticket is valid for 24 hours and allows you hop on and off as often as you like while traveling by double-decker bus to see the city's famous sites, including the Parliament Building, Andrassy Avenue, and the Castle District. This tour includes 28 stops and audio commentary on board.
+
+Day 8 - Departure from Budapest
+After breakfast, you will leave for the airport to fly back home.

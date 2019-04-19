@@ -1,0 +1,14 @@
+<svg width="180" height="180" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#ffcc00" id="canvas_background" height="182" width="182" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text style="cursor: move;" stroke="#000" transform="matrix(2.7843379531623214,0,0,2.1717690032905494,-442.545536873371,-277.2698376035406) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="35" id="svg_3" y="184.441542" x="181.202955" stroke-width="0" fill="#000000">T</text>
+  <path stroke="#000" id="svg_4" d="m5.102516,91.649827l0,0c0,-46.115768 38.727378,-83.499992 86.50001,-83.499992l0,0c22.941219,0 44.942845,8.79729 61.164732,24.456576c16.221904,15.659291 25.335278,36.897834 25.335278,59.043416l0,0c0,46.115762 -38.727378,83.499992 -86.50001,83.499992l0,0c-47.772626,0 -86.50001,-37.38423 -86.50001,-83.499992zm43.250005,0l0,0c0,23.057878 19.363701,41.749996 43.250005,41.749996c23.886322,0 43.250005,-18.692118 43.250005,-41.749996c0,-23.057878 -19.363695,-41.749996 -43.250005,-41.749996l0,0c-23.886304,0 -43.250005,18.692123 -43.250005,41.749996z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#fff"/>
+  <path id="svg_5" d="m0.75,0.750002" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <path id="svg_6" d="m502.75,380.750002" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+ </g>
+</svg>

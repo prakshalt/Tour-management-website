@@ -1,0 +1,37 @@
+<div class="modal fade" id="loginModal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+    
+      <!-- Modal content-->
+      <div class="modal-content  bg-dark">
+        <div class="modal-header" style="padding:35px 50px;background-color: #FFCC00;">
+        	 <h3 style="background-color: #FFCC00;color: black;"> Login form</h4>
+          <button type="button" class="close" data-dismiss="modal" id='dismissloginmodal'>&times;</button>
+         
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname" style="color: white;"><span class="fa fa-user" style="color: red;"></span> Username</label>
+              <input type="text" class="form-control" id="lusername" placeholder="Enter email" autofocus>
+            </div>
+            <div class="form-group">
+              <label for="psw" style="color: white;"><span class="fa fa-eye" style="color: red;"></span> Password</label>
+              <input type="password" class="form-control" id="lpassword" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label style="color: white;"><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+             
+          </form>
+           <button type="submit" class="btn btn-block"  onclick="loginvalidate()" style="background-color: #FFCC00;"><span class="fa fa-sign-in"></span> Login</button>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-block" data-dismiss="modal"><span class="fa fa-remove"></span> Cancel</button>
+          
+        </div>
+        <p style="color: white;">Not a member? <a href="#" id='signupinlogin'>Sign Up</a></p>
+          <p style="color: white;">Forgot <a href="#">Password?</a></p>
+      </div>
+      
+    </div>
+  </div> 
